@@ -1,1 +1,1 @@
-# rabbitmq
+This shows working of publish suscribe model where publish model reads from a json file adds it to queue and suscribe model reads from a queue and puts it into the database according to the json keys , here the json keys would be the table names .gorm module has been used for creating tables and sender.go file sends the message and reciver.go would recieve the message from queue and model.go adds to the db. 
